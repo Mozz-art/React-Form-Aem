@@ -1,0 +1,78 @@
+{
+    "project-settings": {
+      "code-owner": "React App",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "reactapp",
+      "model-interface-pkg": "com.reactapp.core.models",
+      "model-impl-pkg": "com.reactapp.core.models.impl"
+    },
+    "name": "multifield",
+    "title": "Multifield",
+    "group": "React App - Content",
+    "type": "components",
+    "options": {
+      "js": false,
+      "jstxt": false,
+      "css": false,
+      "csstxt": false,
+      "html": false,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": true,
+      "model-adaptables": ["request"],
+      "generic-javadoc": false,
+      "properties": [
+        {
+          "field": "form",
+          "type": "multifield",
+          "label": "Form multifield",
+          "model-name": "FormModel",
+          "use-existing-model": false,
+          "json-expose": true,
+          "items": [
+            {
+              "field": "label",
+              "type": "textfield",
+              "label": "Digite um título para a label",
+              "json-expose": true,
+              "json-property": "label"
+            },
+            {
+              "field": "required",
+              "type": "textfield",
+              "label": "false",
+              "json-expose": true,
+              "json-property": "required"
+            },
+            {
+              "field": "input",
+              "type": "textfield",
+              "label": "digite seu input",
+              "json-expose": true,
+              "json-property": "input"
+            },
+            {
+              "field": "placeholderText",
+              "type": "textfield",
+              "label": "Digite um texto de placeholder padrão para o componente:",
+              "json-expose": true,
+              "json-property": "placeholderText"
+            },
+            {
+              "field": "ErrorMessage",
+              "type": "textfield",
+              "label": "Digite o error",
+              "json-expose": true,
+              "json-property": "errorText"
+            }
+
+
+          ]
+        }
+      ]
+    }
+  }

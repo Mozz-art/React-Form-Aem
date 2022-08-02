@@ -1,0 +1,32 @@
+{
+    "project-settings": {
+      "code-owner": "Compass Logon",
+      "bundle-path": "../core/src/main/java",
+      "test-path": "../core/src/test/java",
+      "apps-path": "../ui.apps/src/main/content/jcr_root/apps",
+      "component-path": "reactapp/components",
+      "model-interface-pkg": "com.reactapp.core.models",
+      "model-impl-pkg": "com.reactapp.core.models.impl"
+    },
+    "name": "page-three",
+    "title": "Page three Component",
+    "group": "React App - Content",
+    "type": "content",
+    "options": {
+      "js": true,
+      "jstxt": true,
+      "css": true,
+      "csstxt": true,
+      "html": true,
+      "html-content": false,
+      "slingmodel": true,
+      "testclass": false,
+      "junit-major-version": 5,
+      "content-exporter": false,
+      "model-adaptables": ["request"],
+      "generic-javadoc": false,
+      "properties": [
+  
+      ]
+    }
+  }
